@@ -1,38 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Contact Mathias</title>
+  <meta charset="UTF-8">
+  <title>Contact - Mathias Nzioka</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <header>
-    <div class="container">
-      <h1>Matty</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="contact.html" class="active">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
+    <h1>Contact Me</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
   </header>
 
-  <section class="contact">
-    <div class="container">
-      <h2>Contact Me</h2>
+  <main class="contact-container">
+    <section class="contact-info">
+      <h2>Get in Touch</h2>
       <p>Email: <a href="mailto:mathiasnzioka0@gmail.com">mathiasnzioka0@gmail.com</a></p>
-      <p>GitHub: <a href="https://github.com/Mathias-kieti" target="_blank" rel="noopener noreferrer">github.com/Mathias-kieti</a></p>
-    </div>
-  </section>
+      <p>Github: <a href="https://github.com/Mathias-kieti" target="_blank">https://github.com/Mathias-kieti</a></p>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 Matty. All rights reserved.</p>
-    </div>
-  </footer>
+    </section>
+
+    <section class="contact-form">
+      <h2>Send a Message</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 </body>
 </html>
