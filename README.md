@@ -19,4 +19,4 @@ This is a simple personal portfolio website created using HTML and CSS. The goal
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   https://github.com/Mathias-kieti/PERSONAL-PORTFOLIO
