@@ -1,0 +1,178 @@
+/* Reset default browser padding/margins */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color: #222;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .hero {
+    background-color: #008080;
+    color: #fff;
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .about, .projects, .contact {
+    background-color: #fff;
+    padding: 40px 0;
+    margin-top: 20px;
+  }
+  
+  .projects ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
+  
+  a {
+    color: #008080;
+  }
+  
+  footer {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 30px;
+  }
+
+  .contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2em;
+    gap: 2em;
+  }
+  
+  .contact-info, .contact-form {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    width: 100%;
+    border: 1px solid #3889a1;
+    border-radius: 5px;
+  }
+  
+  .contact-form button {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #39ca39;
+    color: #862727;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .contact-form button:hover {
+    background-color: #3064a7;
+  }
+
+  .download-btn {
+    display: inline-block;
+    background-color: #4717f3;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #17d847;
+  }
+
+ 
+#education {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+#education h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#education article {
+  background: white;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-left: 5px solid #2c3e50;
+  border-radius: 5px;
+  transition: transform 0.2s;
+}
+
+#education article:hover {
+  transform: scale(1.02);
+}
+
+#education article h3 {
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+#education article p {
+  margin: 0.3rem 0;
+  color: #555;
+  font-size: 1rem;
+}
+
+
+
+  
+  
